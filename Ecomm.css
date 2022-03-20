@@ -1,0 +1,167 @@
+*{
+  margin:0;
+}
+
+.main{
+  background-color:;
+  display:block;
+  height:auto;
+  width:100%;
+}
+
+.header{
+  background-color: transparent;
+  display:block;
+  width:100%;
+  height:20px;
+  position:absolute;
+  top:3px;
+  left:3px;
+}
+
+.a{
+  background-color:transparent;
+  text-decoration: none;
+  font-family: arial;
+  padding:1px;
+  color:white;
+}
+.a:hover{
+  background-color:blue;
+}
+img{
+  display:inline;
+}
+.headlines{
+  position:absolute;
+  background-color: transparent;
+  padding-left:20px;
+  padding-right:60px;
+  color:white;
+  top:100px;
+  left:30px;
+  font-size: 30px;
+}
+.headpage{
+  position: relative;
+  font-family: arial;
+}
+
+.product{
+  height:auto;
+  width:70%;
+  border-radius:25%;
+}
+
+.enquiry{
+  background-color: black;
+  color:white;
+  height:550px;
+  width:100%;
+}
+
+.slideshow{
+  overflow:auto;
+  white-space:nowrap;
+}
+
+.slideshow a{
+  display:inline;
+  text-decoration:none;
+}
+
+.slideshow a:hover{
+  opacity:1;
+}
+
+.about{
+  width:95%;
+  display:block;
+  padding:5px;
+}
+
+#more{
+  display:none;
+}
+
+.comment{
+  overflow:auto;
+  white-space:nowrap;
+}
+.comment a{
+  display:inline;
+}
+
+.commcon{
+  position:relative;
+  color:black;
+  text-align:center;
+}
+
+.footer{
+  background-color:black;
+  height:600px;
+  width:100%;
+}
+
+.fa{
+  padding:20px;
+  font-size:20px;
+  width:10px;
+  text-decoration:none;
+  margin:5px 10px;
+}
+
+.fa:hover{
+  opacity:0.9;
+}
+
+.whythis{
+  overflow:auto;
+  white-space:nowrap;
+}
+
+.whythis a{
+  display:inline;
+}
+
+
+.sidebar {
+height: 100%;
+width: 0;
+position: fixed;
+top: 0;
+left: 0;
+background-color: black;
+color:white;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+z-index:1;
+}
+
+.sidebar div {
+padding: 8px 8px 8px 30px;
+font-size: 24px;
+display: block;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.sidebar .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+}
+
+.openbtn {
+font-size: 24px;
+cursor: pointer;
+background-color:;
+}
+
+#sidemain {
+transition: margin-left .5s;
+}
+
